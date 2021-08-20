@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Breakpoints">
+      <UniqueIdentifier>{eeaa5e2b-38b9-4179-a220-1554af387aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Target State">
+      <UniqueIdentifier>{3981d977-3387-4e67-8600-5009f07fe6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dedougger">
+      <UniqueIdentifier>{124c24f0-f0c7-454a-ace3-755a1f4b025b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="source\targetstate\moduleinfo.hpp">
+      <Filter>Target State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\targetstate\ThreadState.hpp">
+      <Filter>Target State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\breakpoints\deferredhwbp.h">
+      <Filter>Breakpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="source\breakpoints\DeferredSWBP.h">
+      <Filter>Breakpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="source\breakpoints\HwbpDescriptor.h">
+      <Filter>Breakpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dedougger.hpp">
+      <Filter>Dedougger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dexception.h">
+      <Filter>Dedougger</Filter>
+    </ClInclude>
+    <ClInclude Include="source\breakpoints\swbp.hpp">
+      <Filter>Breakpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="source\targetstate\PEInfo.hpp">
+      <Filter>Target State</Filter>
+    </ClInclude>
+    <ClInclude Include="source\breakpoints\DebugRegState.hpp">
+      <Filter>Breakpoints</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="source\targetstate\ThreadState.cpp">
+      <Filter>Target State</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Dedougger.cpp">
+      <Filter>Dedougger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\targetstate\PEInfo.cpp">
+      <Filter>Target State</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
